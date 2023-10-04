@@ -8,7 +8,6 @@ import TextForm from './Components/TextForm';
 import Alert from './Components/Alert';
 import {
   BrowserRouter,
-  Link,
   Route,
   Routes,
 } from "react-router-dom";
@@ -23,7 +22,7 @@ function App() {
     })
     setTimeout(() => {
       setAlert(null)
-    }, 1500);
+    }, 1900);
     
   }
 
